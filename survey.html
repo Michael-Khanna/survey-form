@@ -3,9 +3,9 @@
   <head>
     <link href = "survey.css" rel = "stylesheet" >
   </head>
-  <title>Who's your favorite Hokage?</title>
+  <title>Favorites: Hokage Edition</title>
   <body>
-    <h1 id = "title">Who's your favorite Hokage?</h1>
+    <h1 id = "title">Favorites: Hokage Edition</h1>
     <p id = "description"></p>
     <form id = "survey-form" action = "file:///Users/michaelkhanna/survey-form/survey.html">
       <div>
@@ -19,7 +19,7 @@
        <label for = "number" id = "number-label">Number</label><br>
       </div>
        <div class = "dropdown">
-         <button class = "dropdownbtn">Favorite Jutsu?</button>
+         <button class = "dropdownbtn"  id = "button">Favorite Jutsu?</button>
          <div class = "dropdown-content">
            <!--Input is grouped by the "class" attribute, in this instance, it is "favorit jutsu" -->
            <input type = "radio" id = "woodRelease" name = "FavoriteJutsu" value = "woodRelease">
@@ -37,10 +37,12 @@
            <label for = "Raikiri">Raikiri</label><br>
            <input type = "radio" id = "Rasengan" name = "FavoriteJutsu" value = "Rasengan">
            <label for = "Rasengan">Rasengan</label><br>
+           <input type = "radio" id = "other" name = "FavoriteJutsu" value = "other">
+           <label for = "other">Other</label><br>
          </div>
        </div><br>
        <div id = "moretime">
-          <label for = "moretime">Which Hokage's did you want to see more of?</label><br>
+          <label id = "moretime-label" for = "moretime">Which Hokage's do you want to see more of?</label><br>
           <input type = "checkbox" id = "theFirst" value = "theFirst" class = "moretime">
           <label for = "theFirst">The First Hokage: Hashirama Senju</label><br>
           <input type = "checkbox" id = "theSecond" value = "theSecond" class = "moretime">
@@ -60,8 +62,10 @@
          <input type = "text" id = "otherHokage" name = "otherHokage" placeholder= "Konohamaru Sarutobi">
           <label for = "otherHokage" id = "otherHokage-label">Who else would you like to see as Hokage?</label><br>
        </div>
-       <input type = "submit">
+       <input type = "submit" id = "submit-button">
     </form>
+    <img src = "Hokage Rock 2.png" id = "HokageRock" alt = "Hokage Rock With Spraypaint">
+    <img src = "bszccy3qhpkjd8yki9uw.png" id = "Hokages" alt = "All Hokages">
   </body>
 
 </html>

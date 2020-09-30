@@ -1,17 +1,95 @@
+#title{
+  margin: auto;
+  text-align: center;
+  font-family: fantasy;
+}
+
+
+html {
+  background-color: rgb(153,102,0);
+}
+
+#Hokages{
+  max-width: 500px;
+  height: auto;
+}
+
+#survey-form{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#email{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#name{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#number{
+  font-family: fantasy;
+  text-align: center;
+}
+
+#button{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#moretime-label{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#otherHokage{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#submit-button{
+  font-family:fantasy;
+  text-align:center;
+}
+
+#HokageRock{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+#Hokages{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
 .dropdown {
+  font-family:fantasy;
+  text-align:center;
   position: relative;
   display: inline-block;
 }
 
 .dropdown-content {
   /* Disiplay:none; means that the content is not displayed. However, when you hoover over the button, the display is changed to display:block; effectively making the content "dropdown"*/
+  font-family:fantasy;
+  text-align:center;
   display: none;
   position: absolute;
-  min-width:160px;
+  min-width:295px;
+  min-height:158px;
   z-index: 1;
   background-color: rgb(255, 255, 255);
+  background-image: url(main.png);
 }
 
 .dropdown:hover .dropdown-content {
+  font-family:fantasy;
+  text-align:center;
   display: block;
 }
